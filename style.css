@@ -64,11 +64,8 @@ a{
     align-items: center;
     height: 500px;
     padding: 30px 80px;
-    /* background-image: linear-gradient(-90deg, #27274D, #643488); */
-    background-image: linear-gradient(-90deg, rgb(212, 47, 47), black 60%);
     background-image: linear-gradient(90deg, #0A0D14, #28364E);
-    /* background-image: linear-gradient(-90deg, blue, black); */
-    /* background-image: linear-gradient(-90deg, yellow, black); */
+
 }
 
 #inicio div {
@@ -96,10 +93,10 @@ a{
     background: #556FF7;
     color: #fff
 }
-
+ 
 #inicio div button:hover {
-    background: rgb(219, 90, 92);
-}
+    opacity: 0.7;
+} 
 
 #inicio img {
     filter: invert(1);
@@ -133,7 +130,7 @@ a{
     height: 100px;
 }
 
-#contatos {
+/* #contatos {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -183,6 +180,22 @@ a{
 
 #contatos form button:hover {
     background: rgb(62, 59, 114); 
+} */
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact p{
+    font-size: 18px;
+}
+
+#contact img{
+    width: 30px;
+    filter: invert(1);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 footer {
