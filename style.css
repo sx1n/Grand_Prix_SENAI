@@ -23,9 +23,6 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 40px 80px 0 80px;
-    /* background-image: linear-gradient(-90deg, #27274D, #643488); */
-    /* background-image: linear-gradient(-90deg, red, black); */
-    /* background-image: linear-gradient(-90deg, rgb(212, 47, 47), black 60%); */
     background-image: linear-gradient(90deg, #0A0D14, #28364E);
 }
 
@@ -130,57 +127,6 @@ a{
     height: 100px;
 }
 
-/* #contatos {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 650px;
-    background-image: linear-gradient(-90deg, #27274D, #643488);
-    background-image: linear-gradient(-90deg, rgb(212, 47, 47), black 50%);
-    padding: 0 30px;
-}
-
-#contatos div {
-    text-align: center;
-}
-
-#contatos div h1 {
-    margin-bottom: 40px;
-}
-
-#contatos form {
-    width: 350px;
-    color: #2A2850;
-    background: #fff;
-    padding: 40px;
-    border-radius: 15px;
-    font-size: 18px;
-}
-
-#contatos form input {
-    width: 270px;
-    margin: 10px 0;
-    padding: 9px;
-    background: #fff;
-    border: solid 1px #2A2850;
-    font-size: 14px;
-}
-
-#contatos form button {
-    background: #2A2850;
-    width: 270px;
-    height: 55px;
-    border: none;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 20px;
-    border-radius: 50px;
-}
-
-#contatos form button:hover {
-    background: rgb(62, 59, 114); 
-} */
 #contact {
     display: flex;
     flex-direction: column;
@@ -242,9 +188,5 @@ footer {
         flex-direction: column;
         height: 800px;
         padding: 40px 0;
-    }
-    
-    #contatos div {
-        display: none;
     }
 }
