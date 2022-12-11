@@ -1,2 +1,2 @@
 # Grand_Prix_SENAI
-Site do Gran Prix
+Site que fiz enquanto participava do Gran Prix de Automação Industial no SENAI
